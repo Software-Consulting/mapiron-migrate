@@ -1,0 +1,15 @@
+{
+  "name": "mapiron-migrate",
+  "version": "1.0.0",
+  "description": "Find Google Geocoding and Static Maps API calls in your code and point them at MapIron's Google-compatible endpoints. No network calls.",
+  "bin": { "mapiron-migrate": "bin/mapiron-migrate.js" },
+  "main": "lib/migrate.js",
+  "files": ["bin", "lib", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["google-maps", "geocoding", "static-maps", "migration", "openstreetmap", "mapiron"],
+  "homepage": "https://mapiron.com/migrate/google-maps",
+  "repository": { "type": "git", "url": "https://github.com/Software-Consulting/mapiron-migrate.git" },
+  "author": "Wells Software Consulting LLC <hello@mapiron.com>",
+  "license": "MIT"
+}
